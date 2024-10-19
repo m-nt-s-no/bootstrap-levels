@@ -15,3 +15,21 @@ span:hover {
 span:active {
   background-color: darkblue;
 }
+
+.primary {
+  color: white;
+  background-color: dodgerblue;
+  height: 50px;
+  width: 100px;
+  padding: 10 px;
+  font: sans-serif;
+  font-size: 20px;
+  border-radius: 25%
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.primary:hover {
+  background-color: blue;
+}
+.primary:active {
+  background-color: darkblue;
+}
