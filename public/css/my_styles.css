@@ -1,0 +1,17 @@
+span {
+  color: white;
+  background-color: dodgerblue;
+  height: 50px;
+  width: 200%
+  padding: 20 px;
+  font: sans-serif;
+  font-size: 30px;
+  border-radius: 25%
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+span:hover {
+  background-color: blue;
+}
+span:active {
+  background-color: darkblue;
+}
