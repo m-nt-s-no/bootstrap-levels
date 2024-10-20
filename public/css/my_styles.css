@@ -2,12 +2,12 @@ span {
   color: white;
   background-color: dodgerblue;
   height: 50px;
-  width: 200%
-  padding: 20 px;
+  width: 1.5em;
   font: sans-serif;
-  font-size: 30px;
-  border-radius: 25%
-  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  font-size: 25px;
+  border-radius: 0.25em;
+  padding: 0.25 em;
+  box-shadow: 2px 2px 1px 0px rgba(0,0,0,0.75);
 }
 span:hover {
   background-color: blue;
@@ -19,13 +19,13 @@ span:active {
 .primary {
   color: white;
   background-color: dodgerblue;
-  height: 50px;
-  width: 100px;
-  padding: 10 px;
+  height: 40px;
+  width: 1.25em;
+  padding:  0.25em;
   font: sans-serif;
   font-size: 20px;
-  border-radius: 25%
-  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  border-radius: 0.25em;
+  box-shadow: 2px 2px 1px 0px rgba(0,0,0,0.75);
 }
 .primary:hover {
   background-color: blue;
