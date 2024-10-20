@@ -17,13 +17,13 @@ span:active {
 }
 
 .primary {
+  text-align: center;
   color: white;
   background-color: dodgerblue;
-  height: 40px;
-  width: 1.25em;
-  padding:  0.25em;
+  padding:  0.5em 0.5em 0.5em 0.5em;
   font: sans-serif;
   font-size: 20px;
+  width: fit-content;
   border-radius: 0.25em;
   box-shadow: 2px 2px 1px 0px rgba(0,0,0,0.75);
 }
@@ -32,4 +32,200 @@ span:active {
 }
 .primary:active {
   background-color: darkblue;
+}
+
+.secondary {
+  text-align: center;
+  color: white;
+  background-color: lightgray;
+  padding:  0.5em 0.5em 0.5em 0.5em;
+  font: sans-serif;
+  font-size: 20px;
+  width: fit-content;
+  border-radius: 0.25em;
+  box-shadow: 2px 2px 1px 0px rgba(0,0,0,0.75);
+}
+.secondary:hover {
+  background-color: lightslategray;
+}
+.secondary:active {
+  background-color: gray;
+}
+
+.success {
+  text-align: center;
+  color: white;
+  background-color: green;
+  padding:  0.5em 0.5em 0.5em 0.5em;
+  font: sans-serif;
+  font-size: 20px;
+  width: fit-content;
+  border-radius: 0.25em;
+  box-shadow: 2px 2px 1px 0px rgba(0,0,0,0.75);
+}
+.success:hover {
+  background-color: rgb(3, 116, 3);
+}
+.success:active {
+  background-color: darkgreen;
+}
+
+.danger {
+  text-align: center;
+  color: white;
+  background-color: orangered;
+  padding:  0.5em 0.5em 0.5em 0.5em;
+  font: sans-serif;
+  font-size: 20px;
+  width: fit-content;
+  border-radius: 0.25em;
+  box-shadow: 2px 2px 1px 0px rgba(0,0,0,0.75);
+}
+.danger:hover {
+  background-color: red;
+}
+.danger:active {
+  background-color: darkred;
+}
+
+.warning {
+  text-align: center;
+  background-color: rgb(232, 189, 34);
+  padding:  0.5em 0.5em 0.5em 0.5em;
+  font: sans-serif;
+  font-size: 20px;
+  width: fit-content;
+  border-radius: 0.25em;
+  box-shadow: 2px 2px 1px 0px rgba(0,0,0,0.75);
+}
+.warning:hover {
+  background-color: rgb(245, 223, 27);
+}
+.warning:active {
+  background-color: rgb(243, 240, 46);
+}
+
+.info {
+  text-align: center;
+  background-color: skyblue;
+  padding:  0.5em 0.5em 0.5em 0.5em;
+  font: sans-serif;
+  font-size: 20px;
+  width: fit-content;
+  border-radius: 0.25em;
+  box-shadow: 2px 2px 1px 0px rgba(0,0,0,0.75);
+}
+.info:hover {
+  background-color: rgb(155, 214, 237);
+}
+.info:active {
+  background-color: rgb(171, 223, 243);
+}
+
+.primary-unobtrusive {
+  text-align: center;
+  background-color: white;
+  color: dodgerblue;
+  outline-width: thin;
+  outline-style: solid;
+  outline-color: dodgerblue;
+  padding:  0.5em 0.5em 0.5em 0.5em;
+  font: sans-serif;
+  font-size: 20px;
+  width: fit-content;
+  border-radius: 0.25em;
+}
+.primary-unobtrusive:hover {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.secondary-unobtrusive {
+  text-align: center;
+  background-color: white;
+  color: gray;
+  outline-width: thin;
+  outline-style: solid;
+  outline-color: gray;
+  padding:  0.5em 0.5em 0.5em 0.5em;
+  font: sans-serif;
+  font-size: 20px;
+  width: fit-content;
+  border-radius: 0.25em;
+}
+.secondary-unobtrusive:hover {
+  background-color: gray;
+  color: white;
+}
+
+.success-unobtrusive {
+  text-align: center;
+  background-color: white;
+  color: green;
+  outline-width: thin;
+  outline-style: solid;
+  outline-color: green;
+  padding:  0.5em 0.5em 0.5em 0.5em;
+  font: sans-serif;
+  font-size: 20px;
+  width: fit-content;
+  border-radius: 0.25em;
+}
+.success-unobtrusive:hover {
+  background-color: green;
+  color: white;
+}
+
+.danger-unobtrusive {
+  text-align: center;
+  background-color: white;
+  color: red;
+  outline-width: thin;
+  outline-style: solid;
+  outline-color: red;
+  padding:  0.5em 0.5em 0.5em 0.5em;
+  font: sans-serif;
+  font-size: 20px;
+  width: fit-content;
+  border-radius: 0.25em;
+}
+.danger-unobtrusive:hover {
+  background-color: red;
+  color: white;
+}
+
+.warning-unobtrusive {
+  text-align: center;
+  background-color: white;
+  color: rgb(232, 189, 34);
+  outline-width: thin;
+  outline-style: solid;
+  outline-color: rgb(232, 189, 34);
+  padding:  0.5em 0.5em 0.5em 0.5em;
+  font: sans-serif;
+  font-size: 20px;
+  width: fit-content;
+  border-radius: 0.25em;
+}
+.warning-unobtrusive:hover {
+  background-color: rgb(232, 189, 34);
+  color: black;
+}
+
+.info-unobtrusive {
+  text-align: center;
+  background-color: white;
+  color: skyblue;
+  outline-width: thin;
+  outline-style: solid;
+  outline-color: skyblue;
+  padding:  0.5em 0.5em 0.5em 0.5em;
+  font: sans-serif;
+  font-size: 20px;
+  width: fit-content;
+  border-radius: 0.25em;
+}
+.info-unobtrusive:hover {
+  background-color: skyblue;
+  color: black;
 }
